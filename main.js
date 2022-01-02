@@ -1,0 +1,1 @@
+(()=>{"use strict";let e=document.getElementById("content"),t=document.createElement("h1");t.textContent="SFP Grill",e.appendChild(t);let n=document.createElement("img");n.src="src/kreb.jpg",e.appendChild(n)})();
