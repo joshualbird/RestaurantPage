@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'TheNautigal-Regular';
+  src: url('./TheNautigal-Regular.ttf') format('truetype');  
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./Montserrat-Regular.ttf') format('truetype');  
+    }
+   
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'TheNautigal-Regular';
+  width: 100%;
+  background-color: black;
+  color: white;
+  
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  font-size: 72px;
+  gap: 32px;
+}
+
+li {
+  gap: 16px;
+  background: linear-gradient(90deg, #b40000 0%, #660000 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2rem;
+  background-position: 0 90%;
+  transition: all 0.3s ease-in-out;
+  padding-right: 10px;
+}
+
+li:hover {
+  background-size: 100% 90%;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+  border-bottom: 2px solid #660000;
+}
+
+img {
+  border-radius: 4px;
+  max-width: 520px;
+}
+
+p {
+  font-family: 'Montserrat-Regular';
+  max-width: 520px;
+}
+
+#footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
